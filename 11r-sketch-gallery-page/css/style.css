@@ -1,0 +1,51 @@
+#Greet{
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+    position: relative;
+    left: 20%;
+    
+}
+
+body {
+    background-color: rgb(220, 221, 166);
+}
+
+
+#one{
+    position: relative;
+    top: 175px;
+    left: 20%;
+}
+
+
+.t{
+    font-family: 'Caveat', cursive;
+    position: relative;
+    left: 25%;
+    width: 600px;
+    height: 100px;
+    
+}
+
+#intro{
+    font-size: 20px;
+    bottom:400px;
+}
+
+#key{
+    font-size: 20px;
+    bottom: 325px
+}
+
+.pic{
+    position: relative;
+    left: 5%;
+    bottom: 500px;
+}
+
+
+.pic1{
+    position: relative;
+    left: 90%;
+    bottom: 900px;
+}
