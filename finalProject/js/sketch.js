@@ -12,7 +12,7 @@ let pics = [];
 let counter = 0;
 
 function windowResized(){
-  resizeCanvas(canvas(windowWidth, windowHeight));
+  resizeCanvas(windowWidth, windowHeight);
 }
 
 function setup() {
@@ -76,6 +76,7 @@ class Pic {
   }
 
   display() {
-    image(this.img, this.x, this.y);
+    image(this.img, this.x, this.y, this.img.width,windowHeight);
   }
 }
+
